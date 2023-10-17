@@ -1,0 +1,39 @@
+body{
+    background-image: url(https://www.motorsportmagazine.com/wp-content/uploads/sites/2/2021/01/Red-Bull-Database.jpg);
+    background-repeat: repeat;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+header{
+    background-color: white;
+    position: fixed;
+    width: 100%;
+}
+.block1{
+    border: 0px;
+    padding: 15px;
+    margin: 15px;
+    text-align: left;
+    width: 800px;
+    color: #f8f8f8;
+}
+.block {
+    border: 0px;
+    padding: 15px;
+    margin: 15px;
+    text-align: left;
+    width: 800px;
+    ;
+}
+.logo{
+    font-size: 3rem;
+    color: #ea0707;
+    font-weight: bolder;
+}
+
+.box-container{
+    color:white;
+    background-color: #545451;
+    text-align: center;
+    height: 180px;
+}
