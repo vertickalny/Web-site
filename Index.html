@@ -3,89 +3,169 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>showroom</title>
+    <title>showroom</title>
 <link rel="stylesheet" href="Css.css">
 <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <script src="https://kit.fontawesome.com/ef71907978.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 </head>
 <body>
+
+<div id="Slider"></div>
+
 <header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <div id="header">
+                <div class="logo1">
+                    <a href="https://www.formula1.com">
+                        <img src="https://logowik.com/content/uploads/images/f1-formula-18381.jpg" width="100" height="80"/>
+                    </a>
+                </div>
+            </div>
+            <a class="navbar-brand" href="#Home">About F1</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#Photos">
+                            <i class="fa fa-picture-o" aria-hidden="true"></i>
+                            Photos
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa fa-car" aria-hidden="true"></i> Cars
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown1">
+                            <li><a class="dropdown-item" href="Red%20Bull%20Racing%20RB18.html">Red Bull Racing RB18 </a></li>
+                            <li><a class="dropdown-item" href="McLaren.html">McLaren MP4/4</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown" aria-labelledby="navbarDropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa fa-table" aria-hidden="true"></i>
+                            Standings
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#Driver Standings">Driver Standings</a></li>
+                            <li><a class="dropdown-item" href="#Constructor Standings">Constructor Standings</a></li>
+                        </ul>
+                    </li>
 
-    <h1>F1 Cars</h1>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#Performance">Performance</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./Desires.html"><i class="fa fa-plus" aria-hidden="true"></i> Desires</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+</header>
+
+<div class="container-fluid">
 
 
-<nav class="navbar">
-    <ul>
-        <li><a href="#Home">About F1</a></li>
-        <li><a href="#Photos">Photos</a></li>
-        <li><a href="#Cars">Cars</a></li>
-        <li><a href="#Performance">Performance</a></li>
-        <li><a href="#Standings">2023 Driver Standings(Top 5)</a></li>
-    </ul>
-</nav>
+<br>
+<br>
+<br>
+<br>
+
+
+<div id="animate"><img class="animated-gif" src="https://cdn.dribbble.com/users/3213828/screenshots/6612869/mclarenf1800x600.gif"></div>
+
+
+<br>
+<br>
+<br>
 
     <section id="Home">
-        <h2 align="center">Formula One racing</h2>
+        <div class="imtext">
+        <div class="alert alert-light" role="alert">
+            This is the Formula 1 fan page!
+        </div>
+        <h2 class="fw-semibold" align="center">Formula One racing</h2>
         <p><em><strong>A Formula One Grand Prix</strong></em></p>
-        <p><em>is a sporting event which takes place over three days (usually Friday to Sunday), with a series of practice and qualifying sessions prior to the race on Sunday</em></p>
+        <p><em>Formula One (more commonly known as Formula 1 or F1) is the highest class of international racing for open-wheel single-seater formula racing cars sanctioned by the Fédération Internationale de l'Automobile (FIA). The FIA Formula One World Championship has been one of the premier forms of racing around the world since its inaugural season in 1950. The word formula in the name refers to the set of rules to which all participants' cars must conform.[1] A Formula One season consists of a series of races, known as Grands Prix. Grands Prix take place in multiple countries and continents around the world on either purpose-built circuits or closed public roads.
+        </em></p>
+        </div>
+
     </section>
 
     <section id="Photos">
-        <h2 align="center">Photos</h2>
         <div class="box">
-    <div class="block">
-        <p>
+            <div class="block">
+        <h2 class="fw-semibold" align="center">Photos</h2>
+        <p class="fw-lighter">
             Formula One cars wind through the infield section of the Indianapolis Motor Speedway during the race for 2003 United States Grand Prix.
         </p>
         <div class="photo">
             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Formula_one.jpg/430px-Formula_one.jpg" alt="">
         </div>
-        <p>Pit lane at the 2011 Australian Grand Prix</p>
+        <p class="fw-lighter">Pit lane at the 2011 Australian Grand Prix</p>
         <div class="photo">
             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/2011_Australian_GP_pit_lane.jpg/706px-2011_Australian_GP_pit_lane.jpg" alt="">
         </div>
-    </div>
-    </section>
 
-    <section id="Cars">
-        <h2 align="center">Notable Formula One cars</h2>
-        <div class="block">
-            <div class="photo">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Max_Verstappen_2022.jpg/240px-Max_Verstappen_2022.jpg" alt="">
             </div>
-            <p>The victorious Red Bull Racing RB18 from the 2022 season, driven by Max Verstappen.</p>
-            <div class="photo">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Ayrton_Senna_in_1988.jpg/240px-Ayrton_Senna_in_1988.jpg" alt="">
-            </div>
-            <p>The dominant McLaren MP4/4. Driven by Ayrton Senna in 1988.</p>
-            <div class="photo">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Michael_Schumacher_Ferrari_2004.jpg/240px-Michael_Schumacher_Ferrari_2004.jpg" alt="">
-            </div>
-            <p>The highly successful Ferrari F2004 driven by Michael Schumacher at the 2004 United States Grand Prix.</p>
-            <div class="photo">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Williams_FW15C_front-left_2017_Williams_Conference_Centre.jpg/240px-Williams_FW15C_front-left_2017_Williams_Conference_Centre.jpg" alt="">
-            </div>
-            <p>The 1993 Williams FW15C; which is considered by many to be one of the most technologically advanced Formula One cars of all time.</p>
-            <div class="photo">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Lotus_49B_at_Goodwood_2014_001.jpg/240px-Lotus_49B_at_Goodwood_2014_001.jpg" alt="">
-            </div>
-            <p>The Lotus 49B, powered by the Cosworth DFV 3.0 L V8 engine, pictured at the 2014 Goodwood Festival of Speed</p>
         </div>
     </section>
 
-    <section id="Performance">
-        <h2 align="center">Performance</h2>
+    <section id="Cars">
         <div class="block">
+        <h2 class="fw-semibold" align="center">Notable Formula One cars</h2>
+            <div class="photo">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Max_Verstappen_2022.jpg/240px-Max_Verstappen_2022.jpg" alt="">
+            </div>
+            <p class="fw-lighter">The victorious <a href="Red%20Bull%20Racing%20RB18.html">Red Bull Racing RB18</a>  from the 2022 season, driven by Max Verstappen.</p>
+            <div class="photo">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Ayrton_Senna_in_1988.jpg/240px-Ayrton_Senna_in_1988.jpg" alt="">
+            </div>
+            <p class="fw-lighter"> The dominant <a href="McLaren.html">McLaren MP4/4</a>. Driven by Ayrton Senna in 1988.</p>
+            <div class="photo">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Michael_Schumacher_Ferrari_2004.jpg/240px-Michael_Schumacher_Ferrari_2004.jpg" alt="">
+            </div>
+            <p class="fw-lighter">The highly successful Ferrari F2004 driven by Michael Schumacher at the 2004 United States Grand Prix.</p>
+            <div class="photo">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Williams_FW15C_front-left_2017_Williams_Conference_Centre.jpg/240px-Williams_FW15C_front-left_2017_Williams_Conference_Centre.jpg" alt="">
+            </div>
+            <p class="fw-lighter">The 1993 Williams FW15C; which is considered by many to be one of the most technologically advanced Formula One cars of all time.</p>
+            <div class="photo">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Lotus_49B_at_Goodwood_2014_001.jpg/240px-Lotus_49B_at_Goodwood_2014_001.jpg" alt="">
+            </div>
+            <p class="fw-lighter">The Lotus 49B, powered by the Cosworth DFV 3.0 L V8 engine, pictured at the 2014 Goodwood Festival of Speed</p>
+        </div>
+
+    </section>
+
+    <section id="Performance">
+        <div class="block">
+        <h2 align="center">Performance</h2>
             <p>Every F1 car is capable of going from 0 to 160 km/h (0 to 99 mph) and back to 0 in less than five seconds.</p>
 
             <p>During a demonstration at the Silverstone circuit in Britain, an F1 McLaren-Mercedes car driven by David Coulthard gave a pair of Mercedes-Benz street cars a head start of seventy seconds, and was able to beat the cars to the finish line from a standing start, a distance of only 5.2 km (3.2 mi).</p>
 
                 <p>As well as being fast in a straight line, F1 cars have greater cornering ability. Grand Prix cars can negotiate corners at significantly higher speeds than other racing cars because of their levels of grip and downforce. Cornering speed is so high that Formula One drivers have strength training routines just for the neck muscles. Former F1 driver Juan Pablo Montoya claimed to be able to perform 300 repetitions of 23 kg (50 lb) with his neck.</p>
+            <a href="https://en.wikipedia.org/wiki/Formula_One_car" class="btn btn-info">Learn More</a>
         </div>
+
     </section>
 
-    <section id="Standings">
-        <h2 align="left">2023 Driver Standings(Top 5)</h2>
+    <section id="Driver Standings">
         <div class="block">
+        <h2 align="center">2023 Driver Standings(Top 5)</h2>
+        <div class="table1">
             <table>
                 <tr>
                     <th>POS</th>
@@ -131,13 +211,78 @@
                 </tr>
             </table>
         </div>
+            <a href="https://www.formula1.com/en/results.html/2023/drivers.html" class="btn btn-info">Learn More</a>
+        </div>
+
     </section>
+
+<section id="Constructor Standings">
+    <div class="block">
+    <h2 align="center">2023 Constructor Standings(Top 5)</h2>
+            <div class="table">
+        <table>
+            <tr>
+                <th>POS</th>
+                <th>TEAM</th>
+                <th>PTS</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>RED BULL RACING HONDA RBPT</td>
+                <td>657</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>MERCEDES</td>
+                <td>326</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>FERRARI</td>
+                <td>298</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>ASTON MARTIN ARAMCO MERCEDES</td>
+                <td>230</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>MCLAREN MERCEDES</td>
+                <td>219</td>
+            </tr>
+        </table>
+        </div>
+        <a href="https://www.formula1.com/en/results.html/2023/team.html" class="btn btn-info">Learn More</a>
+
+        <br>
+
+
+    </div>
+</section>
+
+</div>
+
+
+
+<section id="footer">
+    <div class="box-container">
+        <h3>contact info</h3>
+        <a href="#">8 706 400 10 45</a><br>
+        <a href="#">221873@astanait.edu.kz</a><br>
+        <a href="#">Astana, Kazakhstan</a>
 
     <h6 align="center">
     <p>Made by</p>
         <a href="https://www.linkedin.com/in/zhan-dzholdybayev-b06790268/">Zhan Dzholdybayev</a>
     </h6>
 
+
+    </div>
+</section>
+
+
+<script src="main.js"></script>
 
 </body>
 </html>
